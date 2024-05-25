@@ -1,0 +1,211 @@
+/* * {
+    margin: 0;
+} */
+
+body {
+    font-size: 15px;
+    width: 88vw;
+    margin: auto;
+}
+
+.mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px auto;
+    width: 80vw;
+}
+
+.mainHeaderNavItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.mainHeaderNavItem {
+    list-style: none;
+}
+
+.mainHeaderNavItemlink {
+    text-decoration: none;
+    color: hsl(273, 4%, 51%);
+    margin: 0 16px;
+}
+.bigrightpattern {
+    position: absolute;
+    z-index: 100;
+    height: 400px;
+    margin-left: 1510px;
+}
+.bigleftpattern {
+    position: absolute;
+    z-index: 100;
+    margin-top: -335px;
+    height: 350px;
+}
+
+.howweworkpattern {
+    position: absolute;
+    z-index: 50;
+    margin: 0px 1050px 530px;
+    height: 300px;
+
+}
+
+.mainHeaderNavItemlink:hover,:active {
+    color: hsl(256, 26%, 20%);
+}
+
+.mainHeaderNavItemlink button {
+    padding: 8px;
+    background: transparent;
+    color: hsl(256, 26%, 20%);
+    border: 3px solid hsl(256, 26%, 20%);
+}
+
+.mainHeaderNavItemlink button:hover,:active {
+    background: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+}
+
+
+/* Main */
+.background {
+    background-color: hsl(256, 26%, 20%);
+    width: 88vw;
+    height: 60vh;
+    z-index: -10;
+    position: absolute;
+}
+.mainIntroduction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 50;
+}
+
+.mainIntroductionImageContainer {
+    margin-top: 96px;
+    margin-right: 100px;
+}
+
+
+.mainIntroductionContentHeader {
+    font-size: 4rem;
+    color: whitesmoke;
+    margin-left: 90px;
+}
+
+.mainIntrocutionContentText {
+    font-size: 16px;
+    color: whitesmoke;
+    margin-left: 90px;
+}
+
+.mainIntroductionContentLink button{
+    padding: 16px;
+    margin-left: 90px;
+    font-size: 2rem;
+    background: transparent;
+    color: whitesmoke;
+    border: 3px solid white;
+}
+
+.mainIntroductionContentLink button:hover,:active {
+    background: white;
+    color: hsl(256, 26%, 20%);
+}
+
+.We’redifferent{
+    font-size: 4rem;
+    text-align: left;
+    margin-left: 100px;
+}
+.hr {
+    width: 200px;
+    margin-left: 100px;
+}
+.body2content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+.body3content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 300px;
+    background-color: hsl(256, 26%, 20%);
+}
+
+.findmore {
+    font-size: 4rem;
+    color: whitesmoke;
+    margin-left: 90px;
+}
+
+.body3content button {
+    padding: 16px;
+    margin-right: 90px;
+    font-size: 2rem;
+    background: transparent;
+    color: whitesmoke;
+    border: 3px solid white;
+}
+
+.body3content button:hover,:active {
+    background: white;
+    color: hsl(256, 26%, 20%);
+}
+
+/* FOOTER */
+footer {
+    margin-top: 100px;
+}
+
+.footerDiv1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 75vw;
+}
+
+.hr1 {
+    width: 75vw;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.footerItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 75vw;
+}
+
+.footerHeader {
+    font-size: 16px;
+    color: hsl(273, 4%, 51%);
+}
+
+.footerList {
+    padding: 0;
+}
+
+.footerListItem {
+    list-style: none;
+}
+@media screen { max-width: 375px;
+    
+}
